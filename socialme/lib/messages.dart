@@ -3,8 +3,7 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 import 'chats.dart';
-import 'drawer.dart';
-import 'dart:async';
+// import 'dart:async';
 
 void main() {
   runApp(
@@ -16,9 +15,9 @@ void main() {
 }
 
 class HomeScreen extends StatelessWidget {
-  // int value;
+  const HomeScreen({super.key});
 
-  const HomeScreen({Key? key}) : super(key: key);
+  // int value;
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +30,7 @@ class HomeScreen extends StatelessWidget {
         title: const Text(
           "Social Me",
           style: TextStyle(
-              fontFamily: 'BebasNeue-Regular',
+              // fontFamily: 'BebasNeue-Regular',
               color: Colors.black,
               fontSize: 40,
               fontWeight: FontWeight.bold),
@@ -155,7 +154,7 @@ class HomeScreen extends StatelessWidget {
             child: Text(
               "Messages",
               style: TextStyle(
-                  fontFamily: 'BebasNeue-Regular',
+                  // fontFamily: 'BebasNeue-Regular',
                   color: Colors.black,
                   fontWeight: FontWeight.bold,
                   fontSize: 35.0),
@@ -345,28 +344,28 @@ class HomeScreen extends StatelessWidget {
               ),
             ),
           ),
-          Positioned(
-            child: RaisedButton(
-              onPressed: () {},
-              shape: const CircleBorder(),
-              textColor: Colors.white,
-              color: Colors.black,
-              child: SizedBox(
-                width: 56,
-                height: 56,
-                child: Transform.rotate(
-                  angle: -45 * pi / 180,
-                  child: const Icon(
-                    Icons.send_outlined,
-                    size: 25,
-                  ),
-                ),
-              ),
-            ),
-            right: 0,
-            left: 0,
-            bottom: 100,
-          )
+          // Positioned(
+          //   child:  RaisedButton(
+          //     onPressed: () {},
+          //     shape:  const CircleBorder(),
+          //     textColor: Colors.white,
+          //     color: Colors.black,
+          //     child: SizedBox(
+          //       width: 56,
+          //       height: 56,
+          //       child: Transform.rotate(
+          //         angle: -45 * pi / 180,
+          //         child: const Icon(
+          //           Icons.send_outlined,
+          //           size: 25,
+          //         ),
+          //       ),
+          //     ),
+          //   ),
+          //   right: 0,
+          //   left: 0,
+          //   bottom: 100,
+          // ),
         ],
       ),
     );
