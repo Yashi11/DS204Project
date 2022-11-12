@@ -4,7 +4,7 @@ A mobile application made in flutter for online social interactions incorporatin
 # App Flow Till Now
 - [ ] Splash Image 
 - [X] Introduction Slider
-- [ ] Login/Sign Up (If not logged In)
+- [X] Login/Sign Up (If not logged In)
 - [ ] Home Page
 - [ ] Riches
 - [ ] Messages
