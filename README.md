@@ -7,5 +7,5 @@ A mobile application made in flutter for online social interactions incorporatin
 - [X] Login/Sign Up (If not logged In)
 - [ ] Home Page
 - [ ] Riches
-- [ ] Messages
-- [ ] Individual Messages
+- [X] Messages
+- [X] Individual Messages
